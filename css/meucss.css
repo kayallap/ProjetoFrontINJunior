@@ -1,0 +1,36 @@
+*{
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+header{
+    background-image: url("../fundo.jpg");
+}
+
+.menu{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 3px solid;
+    border-bottom-color: #0062C4;
+    height: 95px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+}
+.opcoes li{
+    display: inline-block;
+    list-style: none;
+    padding: 55px 25px 10px 10px;
+    color: rgba(255, 255, 255, 0.6);
+    text-shadow: 2px 2px 4px #000000;
+}
+.centralizado{
+	width:800px;
+	position:absolute;
+	left: calc(50% - 400px);
+    text-align: center;
+}
+
+.logo img{
+    width: 100px;
+    float: left;
+    margin: 10px;
+}
