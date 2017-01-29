@@ -48,12 +48,6 @@ header{
 /*FIM DO HEADER*/
 /*CORPO*/
 
-.quemSomos{
-    text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
 .servicos{
     text-align: center;
     margin-left: 15px;
@@ -99,3 +93,29 @@ header{
 }
 
 /* FIM DO FOOTER */
+
+/* EQUIPE */
+
+}
+.fotoEquipe{
+    height: 300px;
+    width: 300px;
+}
+.sobreAlcateia{
+    text-align: left;
+}
+.alcateia{
+    text-align: center;
+}/* */
+
+/* SOBRE */ 
+
+
+.quemSomos{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.fotoIC{
+    width: 100%;
+}
