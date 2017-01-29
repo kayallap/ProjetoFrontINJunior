@@ -34,6 +34,16 @@ header{
     float: left;
     margin: 10px;
 }
+
+.mySlides {
+    display:none;
+}
+
+.demo {cursor:pointer}
+
+/*FIM DO HEADER*/
+/*CORPO*/
+
 /* FOOTERSTYLE */
 .footer {
     position: relative;
@@ -49,6 +59,11 @@ header{
 }
 .footerContatos {
     list-style: none;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.id{
+    padding-top: 11px;
 }
 
 /* /FOOTERSTYLE */

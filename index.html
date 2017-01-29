@@ -8,6 +8,7 @@
         <title>IN Junior</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/meucss.css">
+        <link href="css/w3.css" rel="stylesheet">
     </head>
 
     <body>
@@ -28,8 +29,23 @@
                     </ol>
                 </div>
             </div>
-            <div>
-                <br>
+            <div class="w3-content" style="max-width:1200px;padding-top:110px">
+                <img class="mySlides w3-hover-opacity" src="imagem1.jpg" style="width:100%;border-radius:7px">
+                <img class="mySlides w3-hover-opacity" src="imagem2.jpg" style="width:100%;border-radius:7px">
+                <img class="mySlides w3-hover-opacity" src="imagem3.jpg" style="width:100%;border-radius:7px">
+                <div class="w3-row-padding w3-section">
+                    <div class="w3-col s4">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="imagem1.jpg" style="width:100%;border-radius:7px" onclick="currentDiv(1)">
+                    </div>
+                    <div class="w3-col s4">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="imagem2.jpg" style="width:100%;border-radius:7px" onclick="currentDiv(2)">
+                    </div>
+                    <div class="w3-col s4">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="imagem3.jpg" style="width:100%;border-radius:7px" onclick="currentDiv(3)">
+                    </div>
+                </div>
+            </div>
+
                 <br>
                 <br>
                 <br>
@@ -82,16 +98,17 @@
         <footer class="footer">
             <div class="footerContainer">
                 <div class="col-md-6">
-                    <p>© IN Junior - Empresa Júnior de Computação da UFF - Todos os direitos reservados</p>
-                </div>
-                <div class="col-md-6">
                     <ol class="footerContatos">
-                    <li> <span class="glyphicon glyphicon-home"></span> Rua Passo da Pátria, 156 - Instituto de Computação - Sala 115-B, Niterói</li>
-                    <li><span class="glyphicon glyphicon-envelope"></span> contato@injunior.com.br</li>
+                        <li> <span class="glyphicon glyphicon-home"></span>  Rua Passo da Pátria, 156 Instituto de Computação - Sala 115-B, Niterói</li>
+                        <li><span class="glyphicon glyphicon-envelope"></span>  contato@injunior.com.br</li>
                     </ol>   
+                </div>
+                <div class="col-md-6 id">
+                    <p>© IN Junior - Empresa Júnior de Computação da UFF - Todos os direitos reservados</p>
                 </div>
             </div>
         </footer>
-    
+
+        <script src="js/js.js"></script>
     </body>
 </html>
