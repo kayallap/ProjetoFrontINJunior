@@ -3,7 +3,9 @@
     font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 header{
-    background-color: #3E86CE;
+    background-image: url("../areyouin.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .menu{
@@ -14,6 +16,7 @@ header{
     height: 95px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     position: fixed;
+    z-index: 1000;
 }
 .opcoes li{
     display: inline-block;
@@ -35,11 +38,12 @@ header{
     margin: 10px;
 }
 
-.mySlides {
+/*.mySlides {
     display:none;
 }
 
 .demo {cursor:pointer}
+*/
 
 /*FIM DO HEADER*/
 /*CORPO*/
