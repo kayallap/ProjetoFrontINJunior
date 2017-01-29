@@ -64,8 +64,8 @@ header{
     margin-right: 15px;
 }
 .clientLogo{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 /* FIM DO CORPO */
@@ -123,6 +123,11 @@ header{
 .textLobo{
     text-align: left;
 }
+/*.containerLobo{
+    background-color: grey;
+    border-radius: 5px;
+}
+*/
 /* FIM EQUIPE */
 
 /* SOBRE */ 
