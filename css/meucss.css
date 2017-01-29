@@ -3,7 +3,12 @@
     font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 header{
-    background-image: url("../fundo.jpg");
+    background-image: url("../fundo.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
 }
 
 .menu{
