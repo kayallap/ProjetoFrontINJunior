@@ -39,3 +39,21 @@ header{
     float: left;
     margin: 10px;
 }
+/* FOOTERSTYLE */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+.footerContainer {
+    margin-left: 15px;
+    width: auto;
+    padding: 15px 15px;
+}
+.footerContatos {
+    list-style: none;
+}
+
+/* /FOOTERSTYLE */
