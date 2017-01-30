@@ -136,9 +136,12 @@ header{
 
 
 .quemSomos{
+    margin-top: 10px;
     text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
+}
+
+.quemSomos .row{
+    margin: 0px;
 }
 
 .fotoIC{
@@ -146,5 +149,15 @@ header{
 }
 .sobreIN{
     text-align: left;
+}
+.containerDiretrizes{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+.headerDiretrizes{
+    color: #70ACE5;
 }
 /* FIM SOBRE */
